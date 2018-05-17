@@ -1,0 +1,17 @@
+logging:
+  level: INFO
+  loggers:
+    com.jacob: DEBUG
+
+database:
+  # the name of your JDBC driver
+  driverClass: com.mysql.jdbc.Driver
+
+  # the username
+  user: root
+
+  # the password
+  password: 'jaco4567'
+
+  # the JDBC URL
+  url: jdbc:mysql://localhost:3306/jmaildropwizard
